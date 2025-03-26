@@ -7,7 +7,7 @@ vim.opt.scrolloff = 999
 
 -- share the clipboard
 vim.schedule(function()
-	vim.opt.clipboard = 'unnamedplus'
+  vim.opt.clipboard = 'unnamedplus'
 end)
 
 vim.opt.breakindent = true
