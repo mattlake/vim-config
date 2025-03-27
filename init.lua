@@ -1,4 +1,4 @@
 require("config.lazy")
-require("matt")
-require("keymap")
+require("config.settings")
+require("config.keymap")
 
