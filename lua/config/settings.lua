@@ -7,7 +7,7 @@ vim.opt.scrolloff = 999
 
 -- share the clipboard
 vim.schedule(function()
-  vim.opt.clipboard = 'unnamedplus'
+	vim.opt.clipboard = "unnamedplus"
 end)
 
 vim.opt.breakindent = true
@@ -18,7 +18,7 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
 -- enable signcolumn
-vim.opt.signcolumn = 'yes'
+vim.opt.signcolumn = "yes"
 
 -- Decrease update time
 vim.opt.updatetime = 250
@@ -31,21 +31,21 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 -- Preview substitutions live with :%s
-vim.opt.inccommand = 'split'
+vim.opt.inccommand = "split"
 
 -- which line am i on?
 vim.opt.cursorline = true
 
 -- highlight yanks
-vim.api.nvim_create_autocmd('TextYankPost', {
-  desc = 'Highlight when yanking text',
-  group = vim.api.nvim_create_augroup('highlight-yank', { clear = true }),
-  callback = function()
-    vim.highlight.on_yank()
-  end,
+vim.api.nvim_create_autocmd("TextYankPost", {
+	desc = "Highlight when yanking text",
+	group = vim.api.nvim_create_augroup("highlight-yank", { clear = true }),
+	callback = function()
+		vim.highlight.on_yank()
+	end,
 })
 
 -- Hide the status line as we are using mini-statusline
@@ -54,7 +54,7 @@ vim.opt.showmode = false
 -- Tab and indentation settings
 vim.opt.expandtab = true -- Converts tabs to spaces
 vim.opt.shiftwidth = 4 -- indent depth
-vim.opt.tabstop  = 4
+vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.smarttab = true
 vim.opt.smartindent = true

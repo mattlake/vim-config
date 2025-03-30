@@ -5,10 +5,13 @@ My neovim config.
 - ripgrep
 
 ## Plugins
+- [Conform](https://github.com/stevearc/conform.nvim)
+- [Dressing](https://github.com/stevearc/dressing.nvim)
 - [Fzf-Lua](https://github.com/ibhagwan/fzf-lua)
 - [Git Blame](https://github.com/f-person/git-blame.nvim)
 - [Mini-AI](https://github.com/echasnovski/mini.ai)
 - [Mini-StatusLine](https://github.com/echasnovski/mini.statusline)
+- [Nvim-LSPConfig](https://github.com/neovim/nvim-lspconfig)
 - [Oil](https://github.com/stevearc/oil.nvim)
 - [Project.Nvim](https://github.com/ahmedkhalf/project.nvim)
 - [Tree-sitter](https://github.com/nvim-treesitter/nvim-treesitter)
