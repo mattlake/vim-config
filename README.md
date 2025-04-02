@@ -5,6 +5,7 @@ My neovim config.
 - ripgrep
 
 ## Plugins
+- [Blink](https://github.com/Saghen/blink.nvim)
 - [Conform](https://github.com/stevearc/conform.nvim)
 - [Dressing](https://github.com/stevearc/dressing.nvim)
 - [Fzf-Lua](https://github.com/ibhagwan/fzf-lua)
